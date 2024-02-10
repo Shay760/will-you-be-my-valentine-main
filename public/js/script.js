@@ -1,17 +1,17 @@
 const answers = [
     "Are you sure?",
     "Are you really sure??",
-    "Are you really realy sure???",
-    "Think again?",
-    "Don't believe in second chances?",
+    "Ain't no way???",
+    "You're being hysterical?",
+    "Do you want to be sent to an asylum?",
     "Why are you being so cold?",
-    "Maybe we can talk about it?",
+    "Bro please?",
     "I am not going to ask again!",
     "Ok now this is hurting my feelings!",
-    "You are now just being mean!",
-    "Why are you doing this to me?",
+    "I will sell Dribsis!",
+    "I'm going to tell your mum",
     "Please give me a chance!",
-    "I am begging you to stop!",
+    "Last chance!",
     "Ok, Lets just start over.."
 ]
 
@@ -25,7 +25,7 @@ no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
     if (clicks === 0) {
-        banner.src = "images/no.gif";
+        banner.src = "./public/images/no.gif";
         refreshBanner();
     }
     clicks++;
@@ -53,7 +53,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "images/yes.gif";
+    banner.src = "./public/images/yes.gif";
     refreshBanner();
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];

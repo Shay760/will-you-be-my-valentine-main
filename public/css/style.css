@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(221, 130, 197);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -24,7 +24,9 @@ body {
     background-color: red;
     height: 40px !important;
     width: auto;
-    border: none;
+    border: 2px solid #e9e0e0;
+    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
     margin-top: 10px;
 
@@ -37,7 +39,9 @@ body {
 #yes-button {
     margin: 0 10px;
     color: white;
-    border: none;
+    border: 2px solid #e9e0e0;
+    border-radius: 5px;
+    padding: 10px 5px;
     background-color: green;
     cursor: pointer;
     height: 40px;
